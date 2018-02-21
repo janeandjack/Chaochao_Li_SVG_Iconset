@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+#main
+{
+	   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+
+.container ul li{
+	 width: 10%;
+	height: 10%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+}
+
+
+.container ul li:hover{
+	background-color: yellow;
+	width: 1%0px;
+	transition: width 4s,;
+	box-shadow: 2px 5px #e3d9d7;
+}
+/*
+@media screen and (max-width: 700px)
+.container{
+		width:30%;
+}
+	*/
