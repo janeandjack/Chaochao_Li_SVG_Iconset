@@ -1,2 +1,8 @@
 // JavaScript Document
-object.onmouseover = function(){myScript};
+(() => {
+    console.log('svg set loaded');
+
+
+
+
+})();
